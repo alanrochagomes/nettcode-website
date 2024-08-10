@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/signIn.css" />
+    <title>Entrar | NettCode</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="index.html" class="menu__logo">
+        <img
+          src="assets/images/Nettcode.svg"
+          alt="Logotipo NettCode"
+          class="menu__logo-image"
+        />
+      </a>
+      <div>
+        <a href="signIn.html" class="menu__item">Entrar</a>
+        <a href="#subscription" class="menu__item menu__item--button button">
+          Assine Agora
+        </a>
+      </div>
+    </nav>
+
+    <main class="content">
+      <form class="login container">
+        <h1 class="login__title">Entrar</h1>
+        <label class="login__label"> Você tem uma conta na NettCode? </label>
+        <input
+          class="login__field"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Endereço de e-mail"
+        />
+        <input
+          class="login__field"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Senha"
+          minlength="8"
+        />
+
+        <div class="login__actions">
+          <button type="submit" class="button button--gradient">Entrar</button>
+          <!-- <a href="#" class="login__link"> Esqueceu a senha? </a> -->
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer container">
+      <!-- <div>
+        <a class="footer__link" href="">
+          Comprar projeto
+        </a>
+
+        <a class="footer__link" href="">
+          Em breve
+        </a>
+
+        <a class="footer__link" href="">
+          Projetos em destaque
+        </a> 
+
+        <a class="footer__link" href=""
+          >Videos</a
+        > -->
+        <a class="footer__link" href="./plano.html">Ajuda</a>
+      </div>
+
+      <p class="text--small footer__legal">
+        © 2024 NettCode. Todos os direitos reservados.
+      </p>
+
+      <!-- <div class="footer__social">
+        <a
+          href=""
+          class="footer__social-link"
+        > -->
+          <!-- <img src="assets/images/instagram_0.png" alt="Instagram" /> 
+        </a> -->
+      </div>
+    </footer>
+  </body>
+</html>
